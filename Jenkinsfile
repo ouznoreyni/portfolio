@@ -23,7 +23,7 @@ pipeline {
         stage('Deployment') {
             steps {
                 echo 'Start deploy'
-                // sh 'caprover deploy -h ${CAPTAIN_URL} -p ${PASSWORD_CAPROVER} -b $GIT_BRANCH -a portfolio'
+                sh 'caprover deploy -h ${CAPTAIN_URL} -p ${PASSWORD_CAPROVER} -b $GIT_BRANCH -a portfolio'
                 echo 'END DEPLOY'
             }
         }
