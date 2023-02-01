@@ -3,8 +3,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `portfolio`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Ousmane DIOP`,
+    description: `Ousmane DIOP's portfolio`,
+    siteUrl: `https://portfolio.ousmanediop.com/`,
+    twitterUsername: `@ouznoreyni221`,
   },
-  plugins: ["gatsby-plugin-styled-components"]
+  plugins: ["gatsby-plugin-styled-components"],
 };
